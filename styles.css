@@ -576,7 +576,7 @@ footer{
         - add the wood background texture from the images folder
 */
 #pattern1{
-    
+    background: var(--light-gray) 110% url("images/wood.png");
 }
 
 /* For the second div, the pattern is from from Hero Pattern. These actually give you SVG code to paste into your CSS */
@@ -633,7 +633,7 @@ footer{
         - float the image to the right
 */
 #dog-house{
-    
+    float: right;
 }
 
 /* When you use floats, you have to be sure to clear them so that the rest of your page after the floats displays normally. Let's use the display section to clear the floats (because it is the next tag outside of our container in the HTML) */
@@ -642,7 +642,7 @@ footer{
         - clear any floats
 */
 #section9{
-    
+    clear: both;
 }
 
 /* ------------- SECTION 9 STYLES ---------------- */
